@@ -1,4 +1,4 @@
-function [b0,B,A] = dir2cas(b,a); % DIRECT-form to CASCADE-form conversion (cplxpair version) % --------------------------------------------------------% [b0,B,A] = dir2cas(b,a) % b0 =gain coefficient % B = K by 3matrix of real coefficients containing bk’s % A = K by 3matrix of real coefficients containing ak’s % b=numerator polynomial coefficients of DIRECT form % a=denominator polynomial coefficients of DIRECT form
+function [b0,B,A] = dir2cas(b,a); % DIRECT-form to CASCADE-form conversion (cplxpair version) % --------------------------------------------------------% [b0,B,A] = dir2cas(b,a) % b0 =gain coefficient % B = K by 3matrix of real coefficients containing bkâ€™s % A = K by 3matrix of real coefficients containing akâ€™s % b=numerator polynomial coefficients of DIRECT form % a=denominator polynomial coefficients of DIRECT form
 % compute gain coefficient b0 
 b0 = b(1); b = b/b0; a0 = a(1); a = a/a0; b0 = b0/a0;
 % 
