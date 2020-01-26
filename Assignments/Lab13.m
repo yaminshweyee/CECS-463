@@ -521,7 +521,7 @@ sound(x2,Fs,16);
 %% Problem 3
 %. Find the frequencies for Middle C=440Hz, E (major 3rd) and G (perfect 5th)
 %that make a harmonious chord(unison, major 3rdand 5thas explained below). 
-%Use these frequencies to make a file “chord.wav”file.
+%Use these frequencies to make a file Â“chord.wavÂ”file.
 %Play it through WMP (Windows Media Player) and describe its sound.
 %Plot the waveform and show the signal from t=0.500 to 0.505. Label the plot
 
